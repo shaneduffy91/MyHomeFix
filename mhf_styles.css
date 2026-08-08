@@ -1,0 +1,195 @@
+body {
+    margin: auto;
+    background-color: #f5f5f5;
+}
+header {
+    width: 100%;
+    height: 160px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+    /* background-color: royalblue; */
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mhf-logo {
+    width: 25%;
+    height: 160px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+}
+.navContainer {
+    width: 100%;
+    height: 40px;
+    background-color: #fe0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navList {
+    height: 40px;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.navContainer a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    padding: 0px 20px;
+}
+.navItem {
+    height: 40px;
+    padding: 0px 20px;
+    font-size: 20px;
+    background-color: #fe0000;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+.navItem a:link {
+    background-color: #fe0000;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+.navItem a:visited {
+    background-color: #fe0000;
+    color: #f5f5f5;
+}
+.navItem a:hover {
+    background-color: #191919;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.navItem a:active {
+    background-color: #191919;
+    color: #f5f5f5;
+}
+.pageContainer {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.introduction {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.servicesList {
+    background:rgba(255, 201, 84, 0.5);
+}
+.navListServices {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+}
+.navItemServices {
+    height: 40px;
+    padding: 0px 20px;
+    font-size: 20px;
+    /* background-color: #fe0000; */
+    color: #191919;
+    text-decoration: none;
+}
+.navItemServices a:link {
+    /* background-color: #fe0000; */
+    color: #191919;
+    text-decoration: none;
+}
+.navItemServices a:visited {
+    /* background-color: #fe0000; */
+    color: #191919;
+}
+.navItemServices a:hover {
+    background-color: #191919;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+.navItemServices a:active {
+    background-color: #191919;
+    color: #f5f5f5;
+}
+.checklist {
+    list-style-type: none;
+    padding-left: 1.25rem;
+}
+    
+.checklist li {
+    position: relative;
+    margin-bottom: 0.4rem;
+    padding-left: 0.35rem;
+}
+
+.checklist li::before {
+    content: "✔";
+    color: #fe0000;
+    font-weight: bold;
+    position: absolute;
+    left: -1rem;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+    background-color: #fe0000;
+    color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .mhf-logo {
+        width: 100%;
+    }
+    .navContainer {
+        flex-direction: column;
+        height: auto;
+    }
+    .navContainer a {
+        width: 100%;
+        justify-content: center;
+        padding: 0px;
+    }
+    .navList {
+        flex-direction: column;
+        height: auto;
+        padding: 0px;
+    }
+    .navItem {
+        width: 100%;
+        text-align: center;
+    }
+}
