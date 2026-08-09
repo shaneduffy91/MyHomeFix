@@ -109,6 +109,10 @@ header {
     justify-content: center;
     text-align: left;
 }
+.highlight {
+    font-family: Papyrus, fantasy;
+    font-weight: bold;
+}
 p {
     font-size: 18px;
     margin-bottom: 24px;
