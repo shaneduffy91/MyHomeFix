@@ -109,6 +109,9 @@ header {
     justify-content: center;
     text-align: left;
 }
+.introText {
+    width: 110%;
+}
 .highlight {
     font-family: Papyrus, fantasy;
     font-weight: bold;
@@ -310,6 +313,10 @@ footer {
 
     .introduction {
         width: 80%;
+    }
+
+    .introText {
+        width: 100%;
     }
 
     .contactList {
