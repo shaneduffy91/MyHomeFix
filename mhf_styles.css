@@ -267,6 +267,64 @@ p {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
+.contactFormCard {
+    width: min(900px, 100%);
+    margin-top: 1.5rem;
+    padding: 1.25rem 1.5rem;
+    background: #fffaf2;
+    border: 1px solid #f0d9a7;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    text-align: left;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.contactForm label {
+    font-weight: bold;
+    color: #191919;
+}
+
+.contactForm input,
+.contactForm textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d8c28c;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.contactForm textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contactForm button {
+    align-self: flex-start;
+    border: none;
+    border-radius: 6px;
+    padding: 0.8rem 1.2rem;
+    background-color: #fe0000;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contactForm button:hover {
+    background-color: #c80000;
+}
+
+.formNote {
+    margin-top: 0.75rem;
+    font-size: 14px;
+    color: #666666;
+}
+
 .h2 {
     font-size: 24px;
     margin: 0 0 10px;
